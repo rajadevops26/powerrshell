@@ -1,0 +1,44 @@
+f12
+install existing os
+troubleshoot
+cmd
+cd c:/
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\Manoher Raghavendra> cd c:/
+PS C:\> cd .\Windows\
+PS C:\Windows> cd .\System32\
+PS C:\Windows\System32> vi Utilman.exe
+vi : The term 'vi' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ vi Utilman.exe
++ ~~
+    + CategoryInfo          : ObjectNotFound: (vi:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Windows\System32> vi cmd.exe
+vi : The term 'vi' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ vi cmd.exe
++ ~~
+    + CategoryInfo          : ObjectNotFound: (vi:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Windows\System32> copy cmd.exe Utilman.exe
+copy : Access to the path 'C:\Windows\System32\Utilman.exe' is denied.
+At line:1 char:1
++ copy cmd.exe Utilman.exe
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (C:\Windows\System32\cmd.exe:FileInfo) [Copy-Item], UnauthorizedAccess
+   Exception
+    + FullyQualifiedErrorId : CopyFileInfoItemUnauthorizedAccessError,Microsoft.PowerShell.Commands.CopyItemCommand
+
+PS C:\Windows\System32>
+
+
+resart pc
