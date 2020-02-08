@@ -2,7 +2,7 @@ f12
 install existing os
 troubleshoot
 cmd
-cd c:/
+cd c:/  (or) in powershellx86 use command--->  control userpasswords2  -->hit enter chnge the passwd
 Windows PowerShell
 Copyright (C) Microsoft Corporation. All rights reserved.
 
